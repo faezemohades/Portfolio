@@ -11,20 +11,39 @@ const projectsData = [
     description: "React, Boostrap",
     image: "/images/kids.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/faezemohades/kids",
+    gitUrl: "",
     previewUrl: "https://kids.mp4.ir/",
   },
   {
     id: 2,
+    title: "CRM Panel",
+    description: "React,Bootstrap",
+    image: "/images/Crm.png",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "https://panel.pishtaz.ir/content",
+  }
+ ,
+  {
+    id: 3,
     title: "Potography Portfolio Website",
     description: "Project 2 description",
-    image: "/images/projects/2.png",
+    image: "/images/port.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/faezemohades/Portfolio",
     previewUrl: "/",
   },
   {
-    id: 3,
+    id: 4,
+    title: "Youtube Application",
+    description: "React, styled-component",
+    image: "/images/Youtube.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/faezemohades/YoutubeReactMui-master",
+    previewUrl: "https://youtubesite2022.netlify.app/",
+  },
+  {
+    id: 5,
     title: "E-commerce Application",
     description: "React,MUI",
     image: "/images/modelina.png",
@@ -33,31 +52,13 @@ const projectsData = [
     previewUrl: "https://modelinaecommerce.netlify.app/",
   },
   {
-    id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "CRM Panel",
-    description: "React,Bootstrap",
-    image: "/images/Crm.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/",
-    previewUrl: "https://panel.pishtaz.ir/content",
-  },
-  {
     id: 6,
     title: "Game hub",
     description: "Nextjs, Tailwind",
     image: "/images/gamehub.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/faezemohades/gameHub",
-    previewUrl: "/",
+    previewUrl: "https://game2hub.netlify.app/",
   },
 ];
 
@@ -81,7 +82,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h2 className=" text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
