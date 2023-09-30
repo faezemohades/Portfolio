@@ -27,7 +27,7 @@ const projectsData = [
   {
     id: 3,
     title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    description: "Next js, Tailwind",
     image: "/images/port.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/faezemohades/Portfolio",
@@ -36,7 +36,7 @@ const projectsData = [
   {
     id: 4,
     title: "Youtube Application",
-    description: "React, styled-component",
+    description: "React, Styled-component",
     image: "/images/Youtube.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/faezemohades/YoutubeReactMui-master",
@@ -45,7 +45,7 @@ const projectsData = [
   {
     id: 5,
     title: "E-commerce Application",
-    description: "React,MUI",
+    description: "React, MUI",
     image: "/images/modelina.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/faezemohades/modelinaEcommerce",
@@ -72,8 +72,8 @@ const ProjectsSection = () => {
   };
 
   const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
-  );
+  project.tag && project.tag.includes(tag)
+);
 
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
