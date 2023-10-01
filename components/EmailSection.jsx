@@ -5,6 +5,24 @@ import Link from "next/link";
 import Image from "next/image";
 
 const EmailSection = () => {
+  const handleSubmit=async(e)=>{
+    e.preventDefault();
+    const data={
+      email:e.target.email.value,
+      subject:e.target.subject.vlaue,
+      message:e.target.message.vlaue,
+    }
+    const JSONdata=JSON.stringify(data)
+    const endpoint='/api/send'
+    
+    const option ={
+      method:'POST',
+      heeaders:{
+        'content_Type': 'application/json'
+      },
+      body:JSONdata,
+    }
+  }
   return (
     <section
       id="contact"

@@ -4,7 +4,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 const ParticlesContainer = () => {
-    const particlesInit = useCallback(async (engine:any) => {
+    const particlesInit = useCallback(async (engine) => {
         console.log(engine);
 
         await loadFull(engine);
