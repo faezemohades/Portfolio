@@ -11,7 +11,7 @@ const projectsData = [
     description: "React, Boostrap",
     image: "/images/kids.png",
     tag: ["All", "Web"],
-    gitUrl: "",
+    gitUrl: "https://github.com/faezemohades/movieSite",
     previewUrl: "https://kids.mp4.ir/",
   },
   {
@@ -20,7 +20,7 @@ const projectsData = [
     description: "React,Bootstrap",
     image: "/images/Crm.png",
     tag: ["All", "Web"],
-    gitUrl: "",
+    gitUrl: "https://github.com/faezemohades/CRM",
     previewUrl: "https://panel.pishtaz.ir/content",
   }
  ,
